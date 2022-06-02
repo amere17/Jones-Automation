@@ -1,0 +1,29 @@
+Problems:
+- The star must be near the text not near the field.
+- Missing id number to authintcate the card number.
+- Phone number field missing.
+- cardholder name field missing.
+- Credit card CVV field missing.
+- The arangment of fields not good for the user interface.
+- Payment Currency is missing.
+- Billing address as a header and then the fields of the address.
+- no need for mi field.
+- hints fields are missing.
+- the spaces in the widget not enough.
+
+Test Cases:
+1. what happens if payment gateway stops responding during payment.
+2. During the payment process, check what happens if the connection failed.
+3. Check if each listed card type option opens the correct form.
+4. what happens if payment process fails.
+
+Recommendations:
+I mentioned in the Problems section some solutions,here are more solutions:
+1. Change The Arrangment of the form.
+2. Add payments methods(Apple Pay,Google Pay ...).
+3. Change the Payment Button.
+4. Back button not cancellation.
+5. More Information about the transction/subscription.
+6. Option to review the data that the user entered and 
+the permission to edit the data before confirmation.
+7. Split the transction info and the form(Two columns).
