@@ -9,7 +9,7 @@ const dataMap = new Map([["#name","amere"],["#email","aq@gmail.com"],["#phone","
   const browser = await puppeteer.launch()
   const page = await browser.newPage()
   await page.goto('http://contractorsinsurancereview.com/ExampleForm/')
-  // type the values in the input fields
+  // type the values in the input field
   for(const [key,value] of dataMap){
     await page.type(key,value);
   }
