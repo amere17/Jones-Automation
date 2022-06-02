@@ -37,6 +37,3 @@ a. Test this UI mock-up, can you find any problems with this screen? (Please pay
 attention to all functional aspects such as Security, Usability, Performance, etc.).
 b. Can you write 2–3 sample test cases for this functionality?
 c. Can you suggest a product solution for the most severe bug you’ve found?
-
-Notes:
-- If possible, please return the exercise answers in English.
